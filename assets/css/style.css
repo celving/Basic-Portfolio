@@ -103,3 +103,21 @@ hr{
     background-color: #ffffff;
     border-color: #cecece;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+    width: 100%;
+}
+
+.footertext{
+    color:white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px;
+}
