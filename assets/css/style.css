@@ -129,6 +129,10 @@ p{
 
 }
 
+a:hover{
+    opacity: 50%;
+}
+
 form {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
@@ -151,8 +155,17 @@ input[type=text], select{
 .messageBox{
     resize: vertical;
     height: 240px;
+    width: 860px;
     box-sizing: border-box;
-    padding: 0px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
 }
 input[type=submit] {
     width: 160px;
